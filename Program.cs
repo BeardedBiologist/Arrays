@@ -1,6 +1,12 @@
 ﻿
 
 
+string[] firstNames = new string[5];
 
+firstNames[0] = "Tim";
+firstNames[1] = "Sue";
+firstNames[2] = "Bob";
+firstNames[4] = "Jane";
 
-
+Console.WriteLine($"The first names are {firstNames[0]}, {firstNames[1]}," +
+    $" {firstNames[2]} & {firstNames[4]}.");
