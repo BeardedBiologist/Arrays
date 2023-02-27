@@ -1,5 +1,4 @@
-﻿
-
+﻿// Test one
 
 string[] firstNames = new string[5];
 
@@ -10,3 +9,11 @@ firstNames[4] = "Jane";
 
 Console.WriteLine($"The first names are {firstNames[0]}, {firstNames[1]}," +
     $" {firstNames[2]} & {firstNames[4]}.");
+
+
+// Test two
+
+string data = "Tim,Sue,Bob,Jane,Frank";
+string[] secondNames = data.Split(',');
+
+Console.WriteLine($"The second name is {secondNames[1]}.");
