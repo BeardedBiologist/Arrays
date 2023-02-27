@@ -17,3 +17,11 @@ string data = "Tim,Sue,Bob,Jane,Frank";
 string[] secondNames = data.Split(',');
 
 Console.WriteLine($"The second name is {secondNames[1]}.");
+
+// Test Three
+
+Console.WriteLine(secondNames.Length);
+
+string[] lastNames = new string[] { "Corey", "Smith", "Jones" };
+
+int[] ages = new int[] { 21, 32, 45 };
